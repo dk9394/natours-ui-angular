@@ -1,0 +1,9 @@
+{
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"jest.codeLens": {
+		"showWhenTestStateIn": ["pass", "fail", "unknown"]
+	}
+}
