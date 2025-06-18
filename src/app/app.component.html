@@ -1,2 +1,18 @@
-<h1>{{ title }}</h1>
-<router-outlet></router-outlet>
+<header></header>
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>{{ title }}</h1>
+				<div>
+					<span class="pi pi-user"></span>
+				</div>
+				<div class="card flex justify-content-center">
+					<p-button label="Submit" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<router-outlet></router-outlet>
+</main>
+<footer></footer>

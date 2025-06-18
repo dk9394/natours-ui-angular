@@ -5,5 +5,8 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"jest.codeLens": {
 		"showWhenTestStateIn": ["pass", "fail", "unknown"]
+	},
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
 	}
 }
