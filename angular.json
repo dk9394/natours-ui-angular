@@ -57,19 +57,19 @@
 				"serve": {
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
-						"production": {
-							"browserTarget": "natours-ui:build:production"
+            "production": {
+              "buildTarget": "natours-ui:build:production"
 						},
-						"development": {
-							"browserTarget": "natours-ui:build:development"
+            "development": {
+              "buildTarget": "natours-ui:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
 				},
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
-					"options": {
-						"browserTarget": "natours-ui:build"
+          "options": {
+            "buildTarget": "natours-ui:build"
 					}
 				},
 				"test": {
