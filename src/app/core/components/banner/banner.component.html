@@ -1,0 +1,12 @@
+<section class="banner">
+	<img banner-image [src]="imageUrl" [alt]="imageInfo" />
+	<section class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<ng-content select="[banner-content]"></ng-content>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
