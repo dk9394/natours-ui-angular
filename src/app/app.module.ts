@@ -4,15 +4,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ButtonModule } from 'primeng/button';
+import { CoreModule } from './core/core.module';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
-	declarations: [AppComponent],
+	declarations: [AppComponent, HomePageComponent],
 	imports: [
 		BrowserModule,
 		BrowserAnimationsModule,
 		AppRoutingModule,
-		ButtonModule,
+		CoreModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],

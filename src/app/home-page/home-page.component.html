@@ -1,0 +1,22 @@
+<app-banner>
+	<section class="banner-content" banner-content>
+		<h1 class="title">
+			No matter where you’re going to, we’ll take you there
+		</h1>
+		<section class="search-panel">Search panel</section>
+		<section class="clients">
+			<ul class="list">
+				<li
+					*ngFor="let client of clients; let i = index"
+					class="client"
+					[ngStyle]="{ transform: 'translateX(' + -(i * 15) + 'px)' }"
+				>
+					<span>C{{ i }}</span>
+				</li>
+			</ul>
+			<p class="msg">
+				2500+ people have already booked tours from Natours.
+			</p>
+		</section>
+	</section>
+</app-banner>
